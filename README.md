@@ -1,19 +1,10 @@
-# GoogleMapsScraper
-Tired of manually collecting data from Google Maps?Well, check out my lightning-fast Google Maps scraper.
+# googlemaps-scraper
+ scrape businesses details from googlemaps.com using selenium
 
-## Unleash the Power of Data Extraction
+## how to use
+- use get_webpage() to get the googlemaps page in selenium browser
+- then run get_data() to get the data from the page
+- and export() to export data
 
- Experience unparalleled scraping speeds, thanks to optimized algorithms and asynchronous programming techniques. The tool scrapes data like (but not limited to) : Business names, address , website URLs , reviews and more...
- You can tailor the code, according to your individual needs.
-
- ## How to use 
-
- Just specify the keywords, and radisu on which you want to start. Clone the repository, install the dependencies , configure the script and you are good to go. No additional proxies needed.\
-
-## Contributions
-
-We encourage you to contribute to the project by reporting issues, suggesting improvements, or submitting pull requests. Let's build a powerful and efficient tool together!
-
-## Disclaimer:
-
-Please use this tool responsibly and ethically. Adhere to Google's Terms of Service and avoid excessive requests to prevent account restrictions.
+## example
+review test file: tests.py
